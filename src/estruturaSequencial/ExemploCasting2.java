@@ -7,6 +7,7 @@ public class ExemploCasting2 {
 
         a = 5.0;
         b = (int) a;
+        
 
         System.out.println(b);
     }
