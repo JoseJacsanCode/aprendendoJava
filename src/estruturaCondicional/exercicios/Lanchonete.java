@@ -7,43 +7,28 @@ public class Lanchonete {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        int codigoItem;
-        int qtdItem;
-        codigoItem = sc.nextInt();
-        qtdItem = sc.nextInt();
-        
+        int codigo = sc.nextInt();
+		int quantidade = sc.nextInt();
+		
+		double total;
+		if (codigo == 1) {
+			total = quantidade * 4.0;
+		}
+		else if (codigo == 2) {
+			total = quantidade * 4.5;
+		}
+		else if (codigo == 3) {
+			total = quantidade * 5.0;
+		}
+		else if (codigo == 4) {
+			total = quantidade * 2.0;
+		}
+		else {
+			total = quantidade * 1.5;
+		}
 
-        if(codigoItem == 1) {
-            double preco = qtdItem * 4.00;
-            System.out.println("Código: " + codigoItem);
-            System.out.println("Especificação: Cachorro quente");
-            System.out.printf("Preço: R$ %.2f%n, ", preco);
-        }
-        else if(codigoItem == 2) {
-            double preco = qtdItem * 4.50;
-            System.out.println("Código: " + codigoItem);
-            System.out.println("Especificação: X-Salada");
-            System.out.printf("Preço: R$ %.2f%n, ", preco);
-        }
-        else if(codigoItem == 3) {
-            double preco = qtdItem * 5.00;
-            System.out.println("Código: " + codigoItem);
-            System.out.println("Especificação: X-Bacon");
-            System.out.printf("Preço: R$ %.2f%n, ", preco);
-        }
-        else if(codigoItem == 4) {
-            double preco = qtdItem * 2.00;
-            System.out.println("Código: " + codigoItem);
-            System.out.println("Especificação: Torrada simples");
-            System.out.printf("Preço: R$ %.2f%n, ", preco);
-        }
-        else {
-            double preco = qtdItem * 1.50;
-            System.out.println("Código: " + codigoItem);
-            System.out.println("Especificação: Refrigerante");
-            System.out.printf("Preço: R$ %.2f%n, ", preco);
-        }
-
+		System.out.printf("Total: R$ %.2f%n", total);
+		
         sc.close();
     }
 }
