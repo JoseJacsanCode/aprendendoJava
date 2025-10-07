@@ -2,7 +2,7 @@ package estruturasRepetitivas;
 
 import java.util.Scanner;
 
-public class CasosTeste {
+public class CasoTeste {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
