@@ -1,4 +1,4 @@
-package poo.exercicios.entidades;
+package poo.exercicios.entidadesExercicios;
 
 public class Rectangle {
     public double width;

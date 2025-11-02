@@ -2,7 +2,8 @@ package poo.exercicios;
 
 import java.util.Locale;
 import java.util.Scanner;
-import poo.exercicios.entidades.Rectangle;
+
+import poo.exercicios.entidadesExercicios.Rectangle;
 
 public class MedidasDoRetangulo {
     public static void main(String[] args) {
