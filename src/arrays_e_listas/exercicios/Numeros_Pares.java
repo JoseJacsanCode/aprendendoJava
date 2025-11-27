@@ -2,7 +2,7 @@ package arrays_e_listas.exercicios;
 
 import java.util.Scanner;
 
-public class Numeros_pares {
+public class Numeros_Pares {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
