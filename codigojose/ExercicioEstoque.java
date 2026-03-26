@@ -2,7 +2,7 @@ package codigojose;
 
 import java.util.Locale;
 
-public class ExercicioEstoqueAula03 {
+public class ExercicioEstoque {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         String productName = "Teclado Mecânico";
