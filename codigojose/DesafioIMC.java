@@ -1,3 +1,4 @@
+package codigojose;
 import java.util.Locale;
 
 public class DesafioIMC {
@@ -13,7 +14,7 @@ public class DesafioIMC {
 
 /*
 Exercício 3: Cálculo de IMC 
-(Índice de Massa Corporal)Objetivo: Praticar operações 
+(Índice de Massa Corporal) Objetivo: Praticar operações 
 matemáticas com diferentes tipos. 
 Crie um programa que calcule o IMC de uma pessoa. 
 Use String para o nome.Use double para o peso (ex: 80.5) e para a altura (ex: 1.80).
